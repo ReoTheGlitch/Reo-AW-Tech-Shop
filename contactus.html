@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us – Reo AW Tech Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header>
+    <a href="homepage.html" class="logo">Reo AW Tech Shop</a>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<!-- ================= CONTACT ================= -->
+<section class="wrapper">
+    <div class="box">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-wrapper">
+
+            <!-- INFO -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    Have a question about a product, an order, or business inquiries?
+                    We usually reply within 24 hours.
+                </p>
+
+                <p><strong>Email:</strong> support@reoawtech.com</p>
+                <p><strong>Phone:</strong> +20 1XX XXX XXXX</p>
+                <p><strong>Location:</strong> Cairo, Egypt</p>
+            </div>
+
+            <!-- FORM -->
+            <form class="contact-form" onsubmit="handleContact(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Reo AW Tech Shop — All Rights Reserved</p>
+</footer>
+
+<script>
+function handleContact(e) {
+    e.preventDefault();
+    alert("Message sent successfully. We will contact you soon.");
+    e.target.reset();
+}
+</script>
+
+</body>
+</html>
