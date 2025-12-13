@@ -1,1 +1,0 @@
-Add your images here: laptops.jpg, pcparts.jpg, cables.jpg, software.jpg, product images, etc.
